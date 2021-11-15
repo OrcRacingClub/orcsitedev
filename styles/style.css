@@ -4,7 +4,7 @@ html {
 
 :root {
     /* 18rem multiplied by number of images/2 */
-    --ticker-width: calc(14 * 18rem);
+    --ticker-width: calc(10 * 18rem);
     --highlight: #85e0ab;
     --titleFont:'Roboto Mono', monospace;
     --bodyFont: 'Roboto Mono', monospace;
@@ -319,7 +319,7 @@ ul.roadmap li .event-subtitle {
   text-decoration: line-through;
 }
 
-#buyButton {
+.buyButton {
     background-color: var(--highlight);
     border-radius: 8px;
     border: 0;
@@ -331,7 +331,7 @@ ul.roadmap li .event-subtitle {
     transition: .3s;
 }
 
-#buyButton:hover {
+.buyButton:hover {
     background-color: #fff;
 }
 
